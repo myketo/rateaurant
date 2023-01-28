@@ -1,0 +1,92 @@
+#restaurant {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#restaurant .title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#restaurant .image {
+    max-height: 300px;
+}
+
+#restaurant .current-ratings {
+    border: 4px groove goldenrod;
+    padding: 30px 60px;
+}
+
+#restaurant .current-ratings h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#restaurant .current-ratings ul li {
+    margin: 15px 0;
+}
+
+#restaurant .current-ratings h3 {
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+#restaurant .current-ratings b {
+    color: goldenrod;
+    font-size: 1.4em;
+}
+
+#restaurant .rating-form {
+    margin-top: 30px;
+}
+
+#restaurant .rating-form .rating-container p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#restaurant .rating-form .stars {
+    display: flex;
+    justify-content: center;
+}
+
+#restaurant .rating-form .stars .star-icon {
+    cursor: pointer;
+    user-select: none;
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+
+#restaurant .already-rated {
+    margin-top: 40px;
+    font-size: 18px;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+#restaurant .rate-submit {
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#restaurant .address {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#restaurant #rating-errors {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

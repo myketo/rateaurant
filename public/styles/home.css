@@ -1,0 +1,30 @@
+#home .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .description h2 {
+    margin-bottom: 30px;
+}
+
+#home .description .instructions {
+    list-style-type: decimal;
+    text-align: left;
+    line-height: 30px;
+}
+
+#home .action-button {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#home .action-button .cities {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: dodgerblue;
+    padding: 25px 50px;
+    font-size: 20px;
+    border-radius: 2px;
+}

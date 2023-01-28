@@ -1,0 +1,32 @@
+/* CSS Reset */
+@import "reset.css";
+
+/* Layout */
+@import "header.css";
+@import "footer.css";
+
+/* Subpages */
+@import "home.css";
+@import "cities.css";
+@import "restaurant.css";
+
+body, html, * {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+html {
+    background-color: #f7fafc;
+}
+
+body {
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    padding: 30px;
+    min-height: 85vh;
+}

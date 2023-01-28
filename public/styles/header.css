@@ -1,0 +1,42 @@
+header.header {
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    background-color: rgb(31 41 55);
+    position: relative;
+}
+
+.header .title {
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+
+.header .title a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .title b {
+    color: goldenrod;
+}
+
+.header .action-button {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.header .action-button {
+    text-align: center;
+}
+
+.header .action-button .cities {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 2px;
+}
